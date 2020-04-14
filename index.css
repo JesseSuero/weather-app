@@ -1,0 +1,38 @@
+header {
+  width: 100%;
+  padding: 20px 0;
+  background-color: lightblue;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#sectionSearch {
+  text-align: center;
+}
+
+#inputLocation {
+  width: 150px;
+}
+
+form input[type="submit"] {
+  width: 100px;
+}
+
+.weatherDetails {
+  display: flex;
+}
+
+.weatherDetails > div {
+  padding-right: 40px;
+}
+
+.temperatureDetails {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.unitLabel {
+  font-weight: bold;
+}

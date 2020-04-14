@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>DigitalCrafts Coding Challenge</title>
+    <meta name="description" content="A fun coding challenge" />
+    <meta name="author" content="Jesse Suero" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
+  </head>
+
+  <body onload="document.getElementById('inputLocation').focus()">
+    <header>DigitalCrafts Weather App</header>
+    <section id="sectionSearch">
+      <form onsubmit="getLocationWeather(); return false;">
+        <input
+          id="inputLocation"
+          type="text"
+          placeholder="Search City or Zip Code"
+        />
+        <input id="btnShowWeather" type="submit" value="Search" />
+      </form>
+    </section>
+    <section id="sectionResults"></section>
+  </body>
+</html>
